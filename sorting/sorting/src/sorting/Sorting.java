@@ -4,7 +4,7 @@
  * Title:       Sorting.java
  * Due Date:    Jan 16, 2018
  */
-package sorting;
+//package sorting;
 import java.util.Random;
 
 /**
@@ -24,19 +24,18 @@ public class Sorting {
         *  insertion sorts to find the best run time.
         */
     
-    public void createRandom(int[] randomNumbers){
+    public static int[] createRandom(int length){
      
-        int n = randomNumbers.length;
         Random r = new Random();
-        
-        for (int i=0; i<n; ++i)
-        System.out.print(randomNumbers[i] = r.nextInt(100001));
-        System.out.println();
-        
-        
+        int[] randomNumbers = new int[length];
+            
+        for (int i=0; i<length; ++i){
+                randomNumbers[i] = r.nextInt(100000);
+        }
+            return randomNumbers;
     }//end create Random
     
-    public void shellSort(int[] randomNumbers){
+    public static void shellSort(int[] randomNumbers){
         
         int n = randomNumbers.length;
 
@@ -53,7 +52,7 @@ public class Sorting {
         }//end outer for
     }//end shellSort
     
-    public void selectionSort(int[] randomNumbers){
+    public static void selectionSort(int[] randomNumbers){
         
         int n = randomNumbers.length;
 
@@ -70,7 +69,7 @@ public class Sorting {
         }//end outer for
     }//end selectionSort
         
-    public void insertionSort(int[] randomNumbers){
+    public static void insertionSort(int[] randomNumbers){
         
         int n = randomNumbers.length;
 
@@ -88,7 +87,25 @@ public class Sorting {
     }//end insertionSort
     
     public static void main(String[] args) {
-        // TODO code application logic here
+                        
+            int[] shellSortArr = createRandom(100000);
+            int[] selectionSortArr = shellSortArr.clone();
+            int[] insertionSortArr = shellSortArr.clone();
+            
+            long startTime = System.currentTimeMillis();
+            shellSort(shellSortArr);
+            long endTime = System.currentTimeMillis();
+            System.out.println("Shell Sort run time is " + (endTime - startTime) + "ms.");
+                
+            startTime = System.currentTimeMillis();
+            selectionSort(selectionSortArr);
+            endTime = System.currentTimeMillis();
+            System.out.println("Selection Sort run time is " + (endTime - startTime) + "ms.");
+            
+            startTime = System.currentTimeMillis();
+            insertionSort(insertionSortArr);
+            endTime = System.currentTimeMillis();
+            System.out.println("Insertion Sort run time is " + (endTime - startTime) + "ms.");
     }
     
 }
