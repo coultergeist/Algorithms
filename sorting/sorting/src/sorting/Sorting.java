@@ -4,7 +4,7 @@
  * Title:       Sorting.java
  * Due Date:    Jan 16, 2018
  */
-//package sorting;
+package sorting;
 import java.util.Random;
 
 /**
@@ -12,6 +12,7 @@ import java.util.Random;
  * @author daniellecoulter
  */
 public class Sorting {
+
 
         /* The majority of code was used from Rajat Mishra and can
         *       be found at https://www.geeksforgeeks.org/shellsort/
@@ -93,15 +94,7 @@ public class Sorting {
             arr[j+1] = key;
         }
     }//end insertionSort
-        
-    /*
-    public static void shellSortTiming(int[]     
-         long startTime = System.currentTimeMillis();
-            shellSort(shellSortArr);
-            long endTime = System.currentTimeMillis();
-               System.out.println("Shell Sort run time is " + (endTime - startTime) + "ms.");
-                                       }
-        */
+ 
     public static void main(String[] args) {
                         
             int[] shellSortArr = createRandom(100000);
