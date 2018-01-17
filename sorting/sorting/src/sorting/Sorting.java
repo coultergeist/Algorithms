@@ -93,12 +93,22 @@ public class Sorting {
             arr[j+1] = key;
         }
     }//end insertionSort
-    
+        
+    /*
+    public static void shellSortTiming(int[]     
+         long startTime = System.currentTimeMillis();
+            shellSort(shellSortArr);
+            long endTime = System.currentTimeMillis();
+               System.out.println("Shell Sort run time is " + (endTime - startTime) + "ms.");
+                                       }
+        */
     public static void main(String[] args) {
                         
             int[] shellSortArr = createRandom(100000);
             int[] selectionSortArr = shellSortArr.clone();
             int[] insertionSortArr = shellSortArr.clone();
+            
+            //shellSortTiming(shellSortArr);
             
             long startTime = System.currentTimeMillis();
             shellSort(shellSortArr);
