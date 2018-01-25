@@ -1,0 +1,28 @@
+[23-Jan-2018 11:20:11 America/Denver] PHP Notice:  Undefined variable: number2_ceil in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 46
+[23-Jan-2018 11:20:11 America/Denver] PHP Notice:  Undefined variable: number2_floor in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 47
+[23-Jan-2018 11:20:11 America/Denver] PHP Notice:  Undefined variable: number3_rounded in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 48
+[23-Jan-2018 11:20:11 America/Denver] PHP Notice:  Undefined variable: min in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 50
+[23-Jan-2018 11:20:11 America/Denver] PHP Notice:  Undefined variable: max in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 51
+[23-Jan-2018 11:20:11 America/Denver] PHP Notice:  Undefined variable: random in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 53
+[23-Jan-2018 11:22:24 America/Denver] PHP Notice:  Undefined variable: number2_floor in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 47
+[23-Jan-2018 11:22:24 America/Denver] PHP Notice:  Undefined variable: number3_rounded in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 48
+[23-Jan-2018 11:22:24 America/Denver] PHP Notice:  Undefined variable: min in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 50
+[23-Jan-2018 11:22:24 America/Denver] PHP Notice:  Undefined variable: max in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 51
+[23-Jan-2018 11:22:24 America/Denver] PHP Notice:  Undefined variable: random in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 53
+[23-Jan-2018 11:24:17 America/Denver] PHP Notice:  Undefined variable: number3_rounded in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 49
+[23-Jan-2018 11:24:17 America/Denver] PHP Notice:  Undefined variable: min in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 51
+[23-Jan-2018 11:24:17 America/Denver] PHP Notice:  Undefined variable: max in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 52
+[23-Jan-2018 11:24:17 America/Denver] PHP Notice:  Undefined variable: random in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 54
+[23-Jan-2018 11:26:25 America/Denver] PHP Notice:  Undefined variable: min in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 51
+[23-Jan-2018 11:26:25 America/Denver] PHP Notice:  Undefined variable: max in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 52
+[23-Jan-2018 11:26:25 America/Denver] PHP Notice:  Undefined variable: random in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 54
+[23-Jan-2018 11:27:55 America/Denver] PHP Notice:  Undefined variable: max in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 36
+[23-Jan-2018 11:27:55 America/Denver] PHP Fatal error:  Function name must be a string in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 36
+[23-Jan-2018 11:28:04 America/Denver] PHP Notice:  Undefined variable: max in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 36
+[23-Jan-2018 11:28:04 America/Denver] PHP Fatal error:  Function name must be a string in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 36
+[23-Jan-2018 11:28:18 America/Denver] PHP Notice:  Undefined variable: min in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 51
+[23-Jan-2018 11:28:18 America/Denver] PHP Notice:  Undefined variable: max in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 52
+[23-Jan-2018 11:28:18 America/Denver] PHP Notice:  Undefined variable: random in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 54
+[23-Jan-2018 11:29:20 America/Denver] PHP Notice:  Undefined variable: min in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 51
+[23-Jan-2018 11:29:20 America/Denver] PHP Notice:  Undefined variable: random in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 54
+[23-Jan-2018 11:29:58 America/Denver] PHP Notice:  Undefined variable: random in /home1/icoolsho/icoolshow/nsc2018-winter/dcoulter/lab4/4.2/index.php on line 55
